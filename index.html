@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Swara Chaudhari - AI & Data Science Engineering Student Portfolio. Passionate about machine learning, predictive modeling, Python, and cybersecurity." />
+  <title>Swara Chaudhari | AI & Data Science Engineering Portfolio</title>
+  
+  <!-- Modern Google Fonts: Syne, Outfit, Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body class="dark-theme">
+  <!-- Soft Ambient Glow Shapes -->
+  <div class="bg-glow bg-glow-pink" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-lavender" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-purple" aria-hidden="true"></div>
+  <div class="bg-grid-overlay" aria-hidden="true"></div>
+
+  <!-- Floating Aesthetic Stars & Sparkles Layer -->
+  <div class="stars-layer" aria-hidden="true">
+    <span class="star star-1">✦</span>
+    <span class="star star-2">✧</span>
+    <span class="star star-3">★</span>
+    <span class="star star-4">✦</span>
+    <span class="star star-5">✧</span>
+    <span class="star star-6">✨</span>
+    <span class="star star-7">✦</span>
+    <span class="star star-8">✧</span>
+    <span class="star star-9">★</span>
+    <span class="star star-10">✦</span>
+    <span class="star star-11">✧</span>
+    <span class="star star-12">✨</span>
+    <span class="star star-13">✦</span>
+    <span class="star star-14">✧</span>
+    <span class="star star-15">★</span>
+    <span class="star star-16">✨</span>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="site-header" id="siteHeader">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Swara Chaudhari home">
+        <span class="logo-mark">SC</span>
+        <span class="logo-text">swara<span class="logo-dot">.ai</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#learning">Activities</a>
+        <a href="assets/Swara_Chaudhari_Resume.pdf" download="Swara_Chaudhari_Resume.pdf" class="nav-resume" title="Download Resume PDF">
+          <span>🌸 Resume</span>
+        </a>
+        <a href="#contact" class="nav-contact">Contact Me <span>↗</span></a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch color theme" title="Switch color theme">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home / Hero Section -->
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <div class="availability">
+          <span class="status-dot"></span>
+          <span>✨ B.E. AI & Data Science · R.C. Patel Institute of Technology</span>
+        </div>
+        
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        
+        <h1 class="hero-title">
+          <span class="greeting-prefix">Hi, I'm</span>
+          <span class="gradient-text hero-name animated-shimmer">Swara Chaudhari</span>
+          <span class="hero-typing-wrapper">
+            <span class="typing-prefix">I am an </span>
+            <span id="typingRole" class="typing-text">AI &amp; Data Science Student</span>
+            <span class="typing-cursor" aria-hidden="true">|</span>
+          </span>
+        </h1>
+        
+        <p class="hero-description">
+          Motivated <strong>AI & Data Science engineering student</strong> at <em>R.C. Patel Institute of Technology</em> with a solid foundation in <strong>Python, C, and Java</strong>. Passionate about building predictive models, data-driven systems, and cybersecurity applications.
+        </p>
+        
+        <!-- Primary Action Buttons -->
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            <span>Explore My Work</span>
+            <span class="button-arrow" aria-hidden="true">↓</span>
+          </a>
+          
+          <a class="button button-secondary" href="#contact">
+            <span>Contact Me</span>
+            <span aria-hidden="true">✉</span>
+          </a>
+
+          <!-- Download Resume Button -->
+          <a class="button button-resume" href="assets/Swara_Chaudhari_Resume.pdf" download="Swara_Chaudhari_Resume.pdf" id="downloadResumeBtn" title="Download Swara Chaudhari's Resume">
+            <span class="btn-icon">📄</span>
+            <span>Resume</span>
+          </a>
+          
+          <button class="button button-ghost copy-btn" data-copy="swarachaudhari23@gmail.com" title="Copy email address">
+            <span>📋 Copy Email</span>
+          </button>
+        </div>
+
+        <!-- Social & Quick Contacts Bar -->
+        <div class="hero-social-bar">
+          <!-- LinkedIn Link -->
+          <a href="https://linkedin.com/in/swarachaudhari" target="_blank" rel="noopener noreferrer" class="social-btn linkedin-btn" title="Connect on LinkedIn">
+            <svg class="svg-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+            <span>LinkedIn</span>
+            <span class="ext-arrow">↗</span>
+          </a>
+
+          <!-- GitHub Link -->
+          <a href="https://github.com/swarachaudhari" target="_blank" rel="noopener noreferrer" class="social-btn github-btn" title="View GitHub Repos">
+            <svg class="svg-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            <span>GitHub</span>
+            <span class="ext-arrow">↗</span>
+          </a>
+
+          <!-- Email Direct -->
+          <a href="mailto:swarachaudhari23@gmail.com" class="social-btn email-btn" title="Send Email">
+            <span class="btn-icon">✉</span>
+            <span>swarachaudhari23@gmail.com</span>
+          </a>
+
+          <!-- Phone Direct -->
+          <a href="tel:+918605469369" class="social-btn phone-btn" title="Call">
+            <span class="btn-icon">📞</span>
+            <span>+91 8605469369</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Visual Interactive Card with Profile Image Area -->
+      <div class="hero-visual reveal reveal-delay-1" aria-label="Interactive profile overview">
+        <div class="visual-glow"></div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        
+        <div class="profile-card" id="tiltCard">
+          <div class="card-shimmer"></div>
+          <div class="profile-top">
+            <span class="dot-red"></span>
+            <span class="dot-yellow"></span>
+            <span class="dot-green"></span>
+            <small>AI_DS_PORTFOLIO // 🌸</small>
+          </div>
+
+          <!-- Profile Identity with Photo & Initial Fallback -->
+          <div class="card-identity">
+            <div class="avatar-glow-ring">
+              <div class="avatar" id="avatarContainer">
+                <img 
+                  src="assets/profile.jpg" 
+                  alt="Swara Chaudhari" 
+                  class="avatar-photo" 
+                  id="avatarPhoto"
+                  onerror="this.style.display='none'; document.getElementById('avatarInitials').style.display='grid';" 
+                />
+                <span class="avatar-initials" id="avatarInitials">SC</span>
+              </div>
+            </div>
+            <div>
+              <p class="card-label">AI &amp; DATA SCIENCE STUDENT</p>
+              <h3>Swara Chaudhari</h3>
+              <span class="institute-badge">R.C. Patel Institute of Tech, Shirpur</span>
+            </div>
+          </div>
+
+          <!-- Code Snippet Box -->
+          <div class="terminal-box">
+            <div class="terminal-bar">
+              <span class="terminal-file">developer_profile.py</span>
+              <span class="terminal-stars">✧ ✦ ✧</span>
+            </div>
+            <pre class="terminal-code"><code><span class="code-keyword">class</span> <span class="code-entity">Engineer</span>:
+    <span class="code-prop">name</span> = <span class="code-str">"Swara Chaudhari"</span>
+    <span class="code-prop">major</span> = <span class="code-str">"AI &amp; Data Science"</span>
+    <span class="code-prop">skills</span> = [<span class="code-str">"C"</span>, <span class="code-str">"Python"</span>, <span class="code-str">"Java"</span>]
+    <span class="code-prop">interests</span> = [<span class="code-str">"ML"</span>, <span class="code-str">"Cybersecurity"</span>]
+    <span class="code-prop">status</span> = <span class="code-str">"Building &amp; Learning"</span></code></pre>
+          </div>
+
+          <div class="card-stats-mini">
+            <div class="stat-pill">
+              <span class="stat-num">8.09</span>
+              <span class="stat-lbl">1st Year CGPA</span>
+            </div>
+            <div class="stat-pill">
+              <span class="stat-num">92.2%</span>
+              <span class="stat-lbl">SSC Distinction</span>
+            </div>
+            <div class="stat-pill">
+              <span class="stat-num">Year 2</span>
+              <span class="stat-lbl">B.E. Pursuing</span>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <span class="card-motto">✦ Turning curiosity into intelligent code</span>
+            <span class="footer-star">🌸</span>
+          </div>
+        </div>
+
+        <!-- Floating Badges with Keyframe Animations -->
+        <div class="floating-badge badge-tech float-anim-1">
+          <span class="badge-icon">🐍</span>
+          <div>
+            <strong>Python &amp; ML</strong>
+            <small>Predictive Models</small>
+          </div>
+        </div>
+
+        <div class="floating-badge badge-security float-anim-2">
+          <span class="badge-icon">🛡️</span>
+          <div>
+            <strong>Cybersecurity</strong>
+            <small>Foundations &amp; Logic</small>
+          </div>
+        </div>
+
+        <div class="floating-badge badge-cgpa float-anim-3">
+          <span class="badge-icon">🎓</span>
+          <div>
+            <strong>8.09 CGPA</strong>
+            <small>R.C. Patel Tech</small>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#about">
+        <span class="mouse-icon"><span class="mouse-wheel"></span></span>
+        <span>Scroll to explore</span>
+      </a>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container two-column">
+        <div class="reveal">
+          <p class="eyebrow">01 / ABOUT ME</p>
+          <h2 class="section-heading">
+            Driven by logic,<br>
+            <span>powered by data.</span>
+          </h2>
+          
+          <!-- Profile Portrait Card in About Section -->
+          <div class="about-portrait-card">
+            <div class="portrait-avatar-wrapper">
+              <img 
+                src="assets/profile.jpg" 
+                alt="Swara Chaudhari" 
+                class="portrait-photo" 
+                onerror="this.style.display='none'; document.getElementById('portraitFallback').style.display='grid';" 
+              />
+              <div class="portrait-fallback" id="portraitFallback">
+                <span>SC</span>
+              </div>
+            </div>
+            <div class="portrait-info">
+              <h4>Swara Chaudhari</h4>
+              <p>AI &amp; Data Science Undergrad · R.C. Patel Institute of Technology</p>
+              <div class="portrait-socials">
+                <a href="https://linkedin.com/in/swarachaudhari" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+                <a href="https://github.com/swarachaudhari" target="_blank" rel="noopener noreferrer" title="GitHub">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+                <a href="mailto:swarachaudhari23@gmail.com" title="Email">✉</a>
+                <a href="tel:+918605469369" title="Phone">📞</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-quote">
+            <p>“Focusing on building technical depth and solving programming problems with precision.”</p>
+          </div>
+        </div>
+
+        <div class="about-content reveal reveal-delay-1">
+          <div class="glass-card about-card">
+            <p class="lead">
+              I am a motivated <strong>Artificial Intelligence &amp; Data Science engineering student</strong> with an enthusiastic drive for machine learning, predictive modeling, and cybersecurity.
+            </p>
+            <p>
+              With a solid foundation in <strong>C, Python, and Java</strong>, I thrive on dissecting complex programming challenges into clear, modular logic. My goal is to build intelligent, data-driven applications that solve practical real-world problems while staying mindful of cybersecurity principles.
+            </p>
+          </div>
+
+          <!-- Core Strengths -->
+          <div class="strengths-wrapper">
+            <h4 class="sub-heading">✨ Core Strengths</h4>
+            <div class="strengths-grid">
+              <div class="strength-card">
+                <span class="strength-icon">⚡</span>
+                <div>
+                  <strong>Quick Learning</strong>
+                  <small>Rapidly mastering new technologies and libraries</small>
+                </div>
+              </div>
+              <div class="strength-card">
+                <span class="strength-icon">🧩</span>
+                <div>
+                  <strong>Logical Thinking</strong>
+                  <small>Analytical reasoning and algorithmic structuring</small>
+                </div>
+              </div>
+              <div class="strength-card">
+                <span class="strength-icon">💬</span>
+                <div>
+                  <strong>Clear Communication</strong>
+                  <small>Articulating technical ideas and progress clearly</small>
+                </div>
+              </div>
+              <div class="strength-card">
+                <span class="strength-icon">🤝</span>
+                <div>
+                  <strong>Team Collaboration</strong>
+                  <small>Cooperative, receptive, and committed team player</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Spoken Languages -->
+          <div class="languages-box">
+            <h4 class="sub-heading">🌸 Languages Spoken</h4>
+            <div class="lang-pills">
+              <span class="lang-badge"><strong>English</strong> · Professional</span>
+              <span class="lang-badge"><strong>Hindi</strong> · Fluent</span>
+              <span class="lang-badge"><strong>Marathi</strong> · Native</span>
+            </div>
+          </div>
+
+          <!-- Animated Stats Row -->
+          <div class="stats-row" id="statsCounter">
+            <div class="stat-box">
+              <strong class="counter" data-target="8.09" data-decimals="2">0.00</strong>
+              <small>First Year CGPA</small>
+            </div>
+            <div class="stat-box">
+              <strong class="counter" data-target="92.20" data-decimals="2" data-suffix="%">0.00%</strong>
+              <small>SSC / 10th Score</small>
+            </div>
+            <div class="stat-box">
+              <strong class="counter" data-target="3" data-suffix="+">0+</strong>
+              <small>Core Languages</small>
+            </div>
+            <div class="stat-box">
+              <strong class="counter" data-target="100" data-suffix="%">0%</strong>
+              <small>Dedication &amp; Drive</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & Technical Profile Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header-centered reveal">
+          <p class="eyebrow">02 / TECHNICAL PROFILE</p>
+          <h2 class="section-heading">Skills &amp; <span>Competencies.</span></h2>
+          <p class="section-sub">A balanced foundation across programming, artificial intelligence, and software fundamentals.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Card 1: Programming Languages -->
+          <article class="skill-card reveal reveal-delay-1" data-tilt>
+            <div class="skill-card-glow"></div>
+            <div class="skill-header">
+              <div class="skill-icon code-icon">&lt;/&gt;</div>
+              <span class="category-tag">PROGRAMMING</span>
+            </div>
+            <h3>Programming Languages</h3>
+            <p>Developing algorithmic rigor and object-oriented fundamentals through hands-on coding.</p>
+            
+            <div class="skill-items-list">
+              <div class="skill-item-badge">
+                <span class="badge-dot"></span>
+                <div>
+                  <strong>Python</strong>
+                  <small>Data Handling, Machine Learning &amp; Automation</small>
+                </div>
+              </div>
+              <div class="skill-item-badge">
+                <span class="badge-dot"></span>
+                <div>
+                  <strong>C Language</strong>
+                  <small>Logic, Conditions, Loops, Arrays &amp; Functions</small>
+                </div>
+              </div>
+              <div class="skill-item-badge">
+                <span class="badge-dot"></span>
+                <div>
+                  <strong>Java</strong>
+                  <small>Object-Oriented Programming (OOP) &amp; Design</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span>Python</span>
+              <span>C</span>
+              <span>Java</span>
+              <span>OOP Principles</span>
+              <span>Modular Functions</span>
+            </div>
+          </article>
+
+          <!-- Card 2: AI & Data Science -->
+          <article class="skill-card reveal reveal-delay-2" data-tilt>
+            <div class="skill-card-glow"></div>
+            <div class="skill-header">
+              <div class="skill-icon ai-icon">◈</div>
+              <span class="category-tag">SPECIALIZATION</span>
+            </div>
+            <h3>AI &amp; Data Science</h3>
+            <p>Harnessing data pipelines, exploratory analysis, and predictive machine learning models.</p>
+            
+            <div class="skill-items-list">
+              <div class="skill-item-badge">
+                <span class="badge-dot"></span>
+                <div>
+                  <strong>Predictive Applications</strong>
+                  <small>Regression Modeling &amp; Value Estimation</small>
+                </div>
+              </div>
+              <div class="skill-item-badge">
+                <span class="badge-dot"></span>
+                <div>
+                  <strong>Data Handling &amp; EDA</strong>
+                  <small>Data Cleaning, Inspection &amp; Preprocessing</small>
+                </div>
+              </div>
+              <div class="skill-item-badge">
+                <span class="badge-dot"></span>
+                <div>
+                  <strong>AI Fundamentals</strong>
+                  <small>Model Training Concepts &amp; Evaluation Metrics</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span>Machine Learning</span>
+              <span>Predictive Modeling</span>
+              <span>Data Analysis</span>
+              <span>Data Handling</span>
+            </div>
+          </article>
+
+          <!-- Card 3: Cybersecurity & Problem Solving -->
+          <article class="skill-card reveal reveal-delay-3" data-tilt>
+            <div class="skill-card-glow"></div>
+            <div class="skill-header">
+              <div class="skill-icon sec-icon">🛡️</div>
+              <span class="category-tag">SYSTEMS &amp; LOGIC</span>
+            </div>
+            <h3>Cybersecurity &amp; Problem Solving</h3>
+            <p>Cultivating secure coding instincts, vulnerability awareness, and structured logical deduction.</p>
+            
+            <div class="skill-items-list">
+              <div class="skill-item-badge">
+                <span class="badge-dot"></span>
+                <div>
+                  <strong>Problem Solving</strong>
+                  <small>Algorithmic &amp; Logical Problem Solving</small>
+                </div>
+              </div>
+              <div class="skill-item-badge">
+                <span class="badge-dot"></span>
+                <div>
+                  <strong>Basic Cybersecurity</strong>
+                  <small>Core Security Principles, Confidentiality &amp; Integrity</small>
+                </div>
+              </div>
+              <div class="skill-item-badge">
+                <span class="badge-dot"></span>
+                <div>
+                  <strong>Logical Thinking</strong>
+                  <small>Structured Branching, Control Flow &amp; Edge Cases</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span>Security Basics</span>
+              <span>Algorithm Design</span>
+              <span>Logical Thinking</span>
+              <span>Problem Solving</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-title-row reveal">
+          <div>
+            <p class="eyebrow">03 / HANDS-ON PROJECTS</p>
+            <h2 class="section-heading">Featured <span>Work.</span></h2>
+          </div>
+          <p class="section-sub-inline">Applying theoretical principles to functional applications and predictive data models.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Featured Project 1: House Price Prediction -->
+          <article class="project-card featured-project reveal reveal-delay-1">
+            <div class="project-art art-predictive">
+              <div class="ml-dashboard-mockup">
+                <div class="mockup-header">
+                  <div class="mockup-controls"><span></span><span></span><span></span></div>
+                  <span class="mockup-title">house_price_prediction_model.py — Training Results</span>
+                  <span class="badge-status-tag">R² Score: 0.88</span>
+                </div>
+                <div class="mockup-body">
+                  <div class="metrics-grid">
+                    <div class="metric-card">
+                      <small>PREDICTED VALUE</small>
+                      <strong>₹ 68,45,000</strong>
+                      <span class="metric-trend">✦ Confidence: 94.2%</span>
+                    </div>
+                    <div class="metric-card">
+                      <small>FEATURES INGESTED</small>
+                      <strong>14 Attributes</strong>
+                      <span class="metric-tag">Area, Rooms, Locality</span>
+                    </div>
+                  </div>
+                  <!-- Simulated Regression Graph Visual -->
+                  <div class="graph-box">
+                    <div class="graph-legend"><span>● Actual Prices</span><span class="line-legend">― Regression Trend</span></div>
+                    <div class="graph-canvas-sim">
+                      <div class="trend-line"></div>
+                      <span class="dot d1"></span><span class="dot d2"></span><span class="dot d3"></span>
+                      <span class="dot d4"></span><span class="dot d5"></span><span class="dot d6"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details">
+              <div class="project-info-head">
+                <div>
+                  <p class="project-type">MACHINE LEARNING · PYTHON · PREDICTIVE ANALYTICS</p>
+                  <h3>House Price Prediction Model</h3>
+                </div>
+                <span class="featured-badge">Featured Project</span>
+              </div>
+              
+              <p class="project-summary">
+                Developed a comprehensive predictive model for estimating residential property prices based on real estate attributes. Implemented exploratory data analysis (EDA), data cleaning, feature correlation, and regression techniques to forecast accurate market valuations.
+              </p>
+
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <span class="hl-bullet">▹</span>
+                  <span><strong>Data Handling:</strong> Performed preprocessing, missing value imputation, and feature scaling using Python.</span>
+                </div>
+                <div class="highlight-item">
+                  <span class="hl-bullet">▹</span>
+                  <span><strong>Model Insights:</strong> Evaluated prediction errors and visualized property feature correlations.</span>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span>Python</span>
+                <span>Data Science</span>
+                <span>Predictive Modeling</span>
+                <span>Regression</span>
+                <span>Data Handling</span>
+                <span>Exploratory Analysis</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="#contact" class="button button-primary button-sm">
+                  <span>Discuss Project</span>
+                  <span>↗</span>
+                </a>
+                <button class="button button-secondary button-sm copy-btn" data-copy="Project: House Price Prediction by Swara Chaudhari (Python Machine Learning Model)">
+                  <span>Share Project Details</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: C & Algorithmic Problem Solving -->
+          <article class="project-card reveal reveal-delay-2">
+            <div class="project-art art-code">
+              <div class="terminal-preview">
+                <div class="term-header">
+                  <span>algorithm_suite.c</span>
+                  <small>gcc -O2 main.c</small>
+                </div>
+                <pre class="term-body"><code>// Modular C Data Structures
+void solvePartition(int arr[], int n) {
+    int left = 0, right = n - 1;
+    while(left &lt; right) {
+        swap(&amp;arr[left++], &amp;arr[right--]);
+    }
+}
+[OK] Execution time: 0.002ms</code></pre>
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="project-info-head">
+                <div>
+                  <p class="project-type">SYSTEMS &amp; LOGIC · C PROGRAMMING</p>
+                  <h3>Algorithmic Logic &amp; Data Structures Suite</h3>
+                </div>
+              </div>
+              <p class="project-summary">
+                A structured repository implementing core algorithmic patterns in C, including array manipulation, dynamic control flow, searching, sorting, and function recursion.
+              </p>
+              <div class="project-tags">
+                <span>C Language</span>
+                <span>Arrays &amp; Pointers</span>
+                <span>Algorithms</span>
+                <span>Modular Design</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Java OOP Foundations -->
+          <article class="project-card reveal reveal-delay-3">
+            <div class="project-art art-java">
+              <div class="terminal-preview">
+                <div class="term-header">
+                  <span>SecurityValidator.java</span>
+                  <small>javac build</small>
+                </div>
+                <pre class="term-body"><code>public class SecurityValidator {
+    private String hashToken;
+    public boolean verifyAccess(User u) {
+        return u.isValid() &amp;&amp; !u.isBlocked();
+    }
+}
+[OK] Compiled 0 errors</code></pre>
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="project-info-head">
+                <div>
+                  <p class="project-type">OBJECT ORIENTED DESIGN · JAVA</p>
+                  <h3>Java Object-Oriented System Architecture</h3>
+                </div>
+              </div>
+              <p class="project-summary">
+                Implementing key Object-Oriented Programming (OOP) principles — encapsulation, inheritance, and polymorphism — to model modular, maintainable real-world entities.
+              </p>
+              <div class="project-tags">
+                <span>Java</span>
+                <span>OOP</span>
+                <span>Encapsulation</span>
+                <span>Design Patterns</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Timeline Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header-centered reveal">
+          <p class="eyebrow">04 / ACADEMIC BACKGROUND</p>
+          <h2 class="section-heading">Education &amp; <span>Milestones.</span></h2>
+          <p class="section-sub">Consistently striving for academic excellence and strong foundational knowledge.</p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Timeline Item 1: B.E. -->
+          <div class="timeline-item reveal reveal-delay-1">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+              <span class="marker-glow"></span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-badge-row">
+                <span class="timeline-tag current-tag">CURRENTLY PURSUING · 2ND YEAR</span>
+                <span class="timeline-date">2023 – Present</span>
+              </div>
+              <h3>Bachelor of Engineering (B.E.)</h3>
+              <h4 class="institute-title">Artificial Intelligence &amp; Data Science</h4>
+              <p class="institute-name">🏛️ R.C. Patel Institute of Technology, Shirpur</p>
+              
+              <div class="timeline-highlight-box">
+                <div class="cgpa-badge">
+                  <span class="badge-label">First Year CGPA</span>
+                  <span class="badge-score">8.09 / 10.0</span>
+                </div>
+                <p class="cgpa-desc">Demonstrated strong academic dedication across engineering mathematics, foundational programming, and core computing disciplines.</p>
+              </div>
+
+              <div class="curriculum-tags">
+                <span>Artificial Intelligence</span>
+                <span>Data Science Foundations</span>
+                <span>Object-Oriented Programming</span>
+                <span>Data Structures</span>
+                <span>Discrete Mathematics</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: SSC -->
+          <div class="timeline-item reveal reveal-delay-2">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-badge-row">
+                <span class="timeline-tag distinction-tag">DISTINCTION</span>
+                <span class="timeline-date">Completed</span>
+              </div>
+              <h3>Secondary School Certificate (SSC / 10th)</h3>
+              <p class="institute-name">Maharashtra State Board</p>
+              
+              <div class="timeline-highlight-box">
+                <div class="cgpa-badge">
+                  <span class="badge-label">Board Examination Score</span>
+                  <span class="badge-score">92.20%</span>
+                </div>
+                <p class="cgpa-desc">Achieved top-tier distinction with strong foundational proficiency in mathematics, science, and analytical subjects.</p>
+              </div>
+
+              <div class="curriculum-tags">
+                <span>92.20% Distinction</span>
+                <span>Mathematics</span>
+                <span>Analytical Sciences</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning & Activities Section -->
+    <section class="section learning-section" id="learning">
+      <div class="container">
+        <div class="section-title-row reveal">
+          <div>
+            <p class="eyebrow">05 / CONTINUOUS GROWTH</p>
+            <h2 class="section-heading">Learning &amp; <span>Activities.</span></h2>
+          </div>
+          <p class="section-sub-inline">Proactively advancing technical proficiencies through structured daily practice.</p>
+        </div>
+
+        <div class="activities-grid">
+          <div class="activity-card reveal reveal-delay-1">
+            <div class="activity-header">
+              <span class="activity-icon">⚡</span>
+              <span class="activity-status">Active Practice</span>
+            </div>
+            <h3>C Programming Mastery</h3>
+            <p>Refining skills in fundamental programming structures including conditions, loops, arrays, multidimensional grids, and modular functions.</p>
+            <ul class="activity-bullets">
+              <li>Control Flow &amp; Branching Optimization</li>
+              <li>Array operations &amp; Algorithm Implementations</li>
+              <li>Functional Deconstruction &amp; Memory Discipline</li>
+            </ul>
+          </div>
+
+          <div class="activity-card reveal reveal-delay-2">
+            <div class="activity-header">
+              <span class="activity-icon">🐍</span>
+              <span class="activity-status">Core Focus</span>
+            </div>
+            <h3>Python Fundamentals &amp; Logic</h3>
+            <p>Solving algorithmic challenges, learning data handling techniques, and building practical utility scripts.</p>
+            <ul class="activity-bullets">
+              <li>Algorithmic Problem Solving &amp; String Operations</li>
+              <li>Data Exploration &amp; Dataset Preprocessing</li>
+              <li>Scripting &amp; Automation Foundations</li>
+            </ul>
+          </div>
+
+          <div class="activity-card reveal reveal-delay-3">
+            <div class="activity-header">
+              <span class="activity-icon">☕</span>
+              <span class="activity-status">Ongoing</span>
+            </div>
+            <h3>Java &amp; Object-Oriented Principles</h3>
+            <p>Mastering the four pillars of OOP: Encapsulation, Inheritance, Polymorphism, and Abstraction to craft maintainable code.</p>
+            <ul class="activity-bullets">
+              <li>Class &amp; Object modeling of real-world systems</li>
+              <li>Interface Design &amp; Method Overriding</li>
+              <li>Exception Handling &amp; Robust Code Design</li>
+            </ul>
+          </div>
+
+          <div class="activity-card reveal reveal-delay-4">
+            <div class="activity-header">
+              <span class="activity-icon">🛡️</span>
+              <span class="activity-status">Exploration</span>
+            </div>
+            <h3>AI, Data Science &amp; Cybersecurity</h3>
+            <p>Actively developing capabilities in predictive machine learning models, exploratory data handling, and essential cybersecurity principles.</p>
+            <ul class="activity-bullets">
+              <li>Predictive Application Architecture &amp; Regression</li>
+              <li>Security Fundamentals &amp; Safe Coding Guidelines</li>
+              <li>Data-driven decision making and model evaluation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-container">
+        <div class="contact-info-col reveal">
+          <p class="eyebrow">06 / GET IN TOUCH</p>
+          <h2 class="contact-heading">Let's build something<br><span>meaningful together.</span></h2>
+          <p class="contact-lead">
+            I am currently open to internship opportunities, academic collaborations, and technical discussions in <strong>Artificial Intelligence, Data Science, and Software Development</strong>.
+          </p>
+
+          <div class="contact-cards-list">
+            <!-- LinkedIn Card -->
+            <div class="contact-item-card">
+              <div class="item-icon-box brand-icon linkedin-bg">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </div>
+              <div class="item-text">
+                <small>LINKEDIN PROFILE</small>
+                <a href="https://linkedin.com/in/swarachaudhari" target="_blank" rel="noopener noreferrer" class="item-link">linkedin.com/in/swarachaudhari ↗</a>
+              </div>
+              <a href="https://linkedin.com/in/swarachaudhari" target="_blank" rel="noopener noreferrer" class="copy-small-btn">
+                Connect
+              </a>
+            </div>
+
+            <!-- GitHub Card -->
+            <div class="contact-item-card">
+              <div class="item-icon-box brand-icon github-bg">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </div>
+              <div class="item-text">
+                <small>GITHUB REPOSITORIES</small>
+                <a href="https://github.com/swarachaudhari" target="_blank" rel="noopener noreferrer" class="item-link">github.com/swarachaudhari ↗</a>
+              </div>
+              <a href="https://github.com/swarachaudhari" target="_blank" rel="noopener noreferrer" class="copy-small-btn">
+                Visit
+              </a>
+            </div>
+
+            <!-- Email Card -->
+            <div class="contact-item-card">
+              <div class="item-icon-box">✉</div>
+              <div class="item-text">
+                <small>EMAIL ME DIRECTLY</small>
+                <a href="mailto:swarachaudhari23@gmail.com" class="item-link">swarachaudhari23@gmail.com</a>
+              </div>
+              <button class="copy-small-btn copy-btn" data-copy="swarachaudhari23@gmail.com" title="Copy email">
+                Copy
+              </button>
+            </div>
+
+            <!-- Phone Card -->
+            <div class="contact-item-card">
+              <div class="item-icon-box">📞</div>
+              <div class="item-text">
+                <small>CALL / WHATSAPP</small>
+                <a href="tel:+918605469369" class="item-link">+91 8605469369</a>
+              </div>
+              <button class="copy-small-btn copy-btn" data-copy="+918605469369" title="Copy phone number">
+                Copy
+              </button>
+            </div>
+
+            <!-- Location Card -->
+            <div class="contact-item-card">
+              <div class="item-icon-box">📍</div>
+              <div class="item-text">
+                <small>LOCATION</small>
+                <span class="item-link">Nehru Nagar, Nandurbar, Maharashtra - 425412</span>
+              </div>
+            </div>
+
+            <!-- College Card -->
+            <div class="contact-item-card">
+              <div class="item-icon-box">🏛️</div>
+              <div class="item-text">
+                <small>INSTITUTION</small>
+                <span class="item-link">R.C. Patel Institute of Technology, Shirpur</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Message Form -->
+        <div class="contact-form-col reveal reveal-delay-1">
+          <div class="form-wrapper glass-card">
+            <div class="form-header">
+              <h3>🌸 Send a Direct Message</h3>
+              <p>Feel free to reach out with any question, internship opportunity, or project idea.</p>
+            </div>
+
+            <form id="contactForm" class="contact-form" onsubmit="return false;">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="e.g. John Doe" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" id="email" name="email" placeholder="e.g. john@example.com" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="e.g. Internship Opportunity / Collaboration" required />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" id="submitBtn" class="button button-primary button-full">
+                <span>Send Message via Email</span>
+                <span>↗</span>
+              </button>
+              <div id="formFeedback" class="form-feedback" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-top-row">
+        <div class="footer-brand">
+          <a class="logo" href="#home">
+            <span class="logo-mark">SC</span>
+            <span class="logo-text">Swara Chaudhari</span>
+          </a>
+          <p class="footer-tagline">AI &amp; Data Science Engineering Student · R.C. Patel Institute of Technology</p>
+        </div>
+
+        <!-- Social Media Links in Footer -->
+        <div class="footer-social-icons">
+          <a href="https://linkedin.com/in/swarachaudhari" target="_blank" rel="noopener noreferrer" class="footer-icon-btn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="https://github.com/swarachaudhari" target="_blank" rel="noopener noreferrer" class="footer-icon-btn" title="GitHub">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="mailto:swarachaudhari23@gmail.com" class="footer-icon-btn" title="Email">✉</a>
+          <a href="tel:+918605469369" class="footer-icon-btn" title="Phone">📞</a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="assets/Swara_Chaudhari_Resume.pdf" download="Swara_Chaudhari_Resume.pdf">Resume (PDF)</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Swara Chaudhari. Built with pastel love 🌸 &amp; care.</p>
+        <a href="#home" class="back-to-top" title="Back to top">
+          <span>Back to Top ↑</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Personal Portfolio Chatbot Widget ("Swara AI Assistant") -->
+  <div class="chatbot-wrapper" id="chatbotWrapper">
+    <button class="chatbot-trigger" id="chatbotToggle" aria-label="Open Swara AI Chatbot" title="Chat with Swara's Portfolio AI">
+      <span class="trigger-icon">🌸</span>
+      <span class="trigger-label">Ask Swara</span>
+      <span class="chat-pulse"></span>
+    </button>
+
+    <div class="chatbot-window" id="chatbotWindow" aria-hidden="true">
+      <div class="chat-header">
+        <div class="chat-header-avatar">
+          <span>🌸</span>
+        </div>
+        <div class="chat-header-info">
+          <h4>Swara's AI Assistant</h4>
+          <small><span class="online-dot"></span> Online · Ask me anything!</small>
+        </div>
+        <button class="chat-close-btn" id="chatCloseBtn" aria-label="Close Chat">✕</button>
+      </div>
+
+      <div class="chat-messages" id="chatMessages">
+        <div class="chat-msg bot-msg">
+          <div class="msg-bubble">
+            👋 Hi there! I'm Swara's personal portfolio assistant. What would you like to know about Swara?
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Suggestion Chips -->
+      <div class="chat-chips" id="chatChips">
+        <button class="chat-chip" data-question="Tell me about yourself">🌷 About Swara</button>
+        <button class="chat-chip" data-question="What are your technical skills?">💻 Skills</button>
+        <button class="chat-chip" data-question="What projects have you built?">🚀 Projects</button>
+        <button class="chat-chip" data-question="What is your education and CGPA?">🎓 Education</button>
+        <button class="chat-chip" data-question="How can I contact Swara?">📫 Contact Info</button>
+      </div>
+
+      <form class="chat-input-bar" id="chatForm">
+        <input type="text" id="chatInput" placeholder="Ask about Swara's skills, projects..." autocomplete="off" />
+        <button type="submit" id="chatSendBtn" aria-label="Send message">
+          <span>➤</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification element for copy & action feedback -->
+  <div class="toast" id="toastNotification" role="alert" aria-live="assertive">
+    <span class="toast-icon">✓</span>
+    <span class="toast-message" id="toastMessage">Copied to clipboard!</span>
+  </div>
+</body>
+</html>
